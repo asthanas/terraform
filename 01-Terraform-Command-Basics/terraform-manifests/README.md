@@ -140,6 +140,8 @@ drwxr-xr-x 1 saura 197609    0 May 27 13:01 ./
 saura@DESKTOP-R7PUA66 MINGW64 /d/terraform/terraform-on-azure-cloud/03-Terraform-Command-Basics/terraform-manifests (main)
 $ cat .terraform.lock.hcl
 
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
 provider "registry.terraform.io/hashicorp/azurerm" {
   version     = "3.58.0"
   constraints = ">= 2.0.0"
